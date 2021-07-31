@@ -90,6 +90,15 @@
     margin: 40px 0px;
 }
 
+.headings1{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: rgb(243, 197, 113);
+}
+}
+
 .btn{
     padding: 10px 35px;
     background-color: transparent;
@@ -115,7 +124,8 @@
     box-sizing: border-box;
     padding:20px;
     margin-bottom: 50px;
-    background-color: burlywood;
+    background-color: white;
+
 
 
 
@@ -123,7 +133,8 @@
 
 #pic{
     display: flex;
-    background-color: burlywood;
+    background-color: white;
+
     
 }
 
