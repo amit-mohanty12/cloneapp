@@ -2,113 +2,194 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" >
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-  <title>personal portfolio</title>
-  <link rel="stylesheet" href="style.css" >
-  <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css" >
-  <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css" >
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>homemade -A new indian iniciative</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic"
+    rel="stylesheet" />
 </head>
+
 <body>
+  <header>
     <nav class="navbar">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">about me</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#services">services</a></li>
-            <li><a href="#contact">contact me</a></li>
-        </ul>
-    </nav>
-
-    <section id="home">
-        <div class="main">
-           
-            <h1 class="headings"> I am <br> AMIT MOHANTY</h1>
-            <button class="btn"> contact me
-
-            </button>
-        </div>
-    </section>
-
-    <section id="about">
-        <div id="pic">
-            
-            <img src="images/aboutme.jpg" alt="">
-            <h3 class="headings1"> About me </h3>
-            <div id="intro">
-                <h2>AMIT MOHANTY</h2>
-                <p> highly devoted and motivated 
-                    <br> have completed multiple  projects with various MNCs and clound 9 companies
-                    <br>-------------------
-                    <br>-------------------
-                    <br>-------------------
-                    <br>-------------------
-                }
-                   
-                </p>
-            </div>
-        </div>
-
-      
-    </section>
-      
-     
-    <section id="portfolio">
-        <h1 class="headings">PORTFOLIO</h1>
-        <div class="gallery">
-            <img src="images/gall7.jpg" alt="">
-            <img src="images/gall2.jpg" alt="">
-            <img src="images/gall3.jpg" alt="">
-            <img src="images/gall4.jpg" alt="">
-            <img src="images/gall5.jpg" alt="">
-            <img src="images/gall6.jpg" alt="">
-        </div>
-     </section>
-
-
-    <section id="services">
-        <h1 class="headings">SERVICES OFFERED</h1>
-        <div class="row">
-            <div class="box">
-                <img src="images/icon.jpg" alt="">
-                <h1 class="headings">website design</h1>
-                <p> </p>
-            </div>
-       
-          <div class="box">
-            <img src="images/icon.jpg" alt="">
-            <h1 class="headings">UX/?UI<br> design</h1>
-            <p>  </p>
-          </div>
-    
-       <div class="box">
-        <img src="images/icon.jpg" alt="">
-           <h1 class="headings">Digital marketing</h1>
-             <p>  </p>
-        </div>
+        <button class="button__primary hide__mobile">history</button>
+      <div class="navbar__brand">
+        <section class="quote__container3">
+          <div class="quote_image_overlay3"></div>
+          <h3 class="quote_image_text3">
+            homemade
+          </h3>
+        </section>
+        
     </div>
+      <div class="navbar__nav__items">
+        <div class="nav__item">
+          <button class="button__primary hide__mobile">Order now</button>
+          
+            <div></div>
+            <div></div>
+            <div></div>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="mobile__navbar__items mobile__only hamburger__menu__close">
+      <ul>
+        <li class="nav__item">Products</li>
+        <li class="nav__item">Restaurants</li>
+        <li class="nav__item">Pricing</li>
+        <li class="nav__item">About Us</li>
+      </ul>
+
+      <div class="nav__item">
+        <button class="button__primary">Order Food</button>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+
+    <section class="hero__container">
+      <div class="hero__image__container">
+        <img src="assets/hero.jpg" alt="hero image" class="hero__image" />
+        <img src="./assets/heroShape.svg" alt="hero image shape" class="hero__image__shape" />
+        <img src="./assets/herobgpattren.svg" alt="hero image shape" class="hero__image__pattren" />
+      </div>
+      <div   class="hero__description">
+        <h4  class="hero__text">
+          experience the taste of homemadefood within minutes  <button  class="button__primary">Order Now</button>
+        </h4>
+        
+       
+      </div>
     </section>
 
+    <section class="video__footage__container">
+      <div class="video__footage">
+        <iframe src="https://player.vimeo.com/video/323795266" frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class="chef__video"></iframe>
+      </div>
+      <div class="video__footage__text">
+        <p>
+          <em>our cooks are mostly mothers and home makers so hygeine and taste are covered
 
-    <section id="contact">
-        <h1 class="headings"> contact</h1>
-        <form action="" class="form">
-            <input type="text" name="name" class="input" placeholder="enter your Name">
-            <input type="email" name="email" class="input" placeholder="enter your email">
-            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="enter your message"></textarea>  
-            <input type="submit" value="SEND" id="send">
+          </em>
+        </p>
+      </div>
+    </section>
 
-        </form>
+    <section class="food__list__container">
+      <h1 class="text-xl">large variety of freshly prepared  foods</h1>
+      <br>
+
+      <p>
+       <div class="food__list__container__diagonal"></div> -->
+      </p>
+      <div class="food__menu__card__list">
+        <div class="food__menu__card">
+          <img src="./assets/dosa.jpg" alt="burger" class="food__menu__card__image" />
+          <div class="food__menu__card__details">
+            <h4 class="text-lg"><strong>dosa</strong></h4>
+            <p>
+             dosa Placee
+              <span style="color: red">highly recommened</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="food__menu__card food__menu__card__move__up">
+          <img src="./assets/chicken.jpg" alt="pizza" class="food__menu__card__image" />
+          <div class="food__menu__card__details">
+            <h4 class="text-lg"><strong>chicken</strong></h4>
+            <p>
+              chciken darbar
+              <span style="color: red">halal</span>
+            </p>
+          </div>
+        </div>
+        <div class="food__menu__card">
+          <img src="./assets/rabidi.jpg" alt="iceCream" class="food__menu__card__image" />
+          <div class="food__menu__card__details">
+            <h4 class="text-lg"><strong>rabidid</strong></h4>
+            <p>
+
+
+
+            rabidi sons
+              <span style="color: red">sweets </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="food__list__view__more">View More</div>
+    </section>
+
+    <section class="restaurant__list__container">
+      <div class="restaurant__list__text">
+        <h3 class="text-xl">Order From 100s of restaurants</h3>
+      </div>
+      <div class="restaurant__list__images__container">
+        <div class="restaurant__list__row_1">
+          <div>
+            <img src="./assets/restaurant1.jpg" alt="restaurant1" class="restaurant1" />
+          </div>
+          <img src="./assets/restaurant2.jpg" alt="restaurant2" class="restaurant2" />
+        </div>
+        <div class="restaurant__list__row_2">
+          <img src="./assets/restaurant3.jpg" alt="restaurant3" class="restaurant3" />
+          <img src="./assets/restaurant4.jpg" alt="restaurant4" class="restaurant4" />
+        </div>
+      </div>
+    </section>
+
+    <section class="email__subcribe__container">
+      <div>
+        <h1 class="text-xl">Stay Updated</h1>
+        <div class="email__subcribe__input__field">
+          <div>
+            <input type="email" placeholder="shape@gmail.com" class="email__input" />
+          </div>
+          <button class="button__primary">Get Updates</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote__container">
+      <div class="y">
+      <h3 class="quote_image_text">
+        The way to a man's heart is through it's stomach
+      </h3></div>
     </section>
     
-</div>
-
-
-
-
- 
-
+  </main>
+  <footer>
+     <section class="quote__container2">
+      <div class="quote_image_overlay2"></div>
+      <h3 class="quote_image_text2">
+        homemade
+      </h3>
+    </section>
+    <ul>
+      <button class="button__primary">Pricing</button>
+      <button class="button__primary">Terms and condition</button>
+      <button class="button__primary">Partnership</button>
+      <button class="button__primary">Career</button>
+      <button class="button__primary">Contact</button>
+      
+      
+  
+  
+  </footer>
 </body>
-</html>
+<!-- 
+<ul>
+  <li>Pricing</li>
+  <li>Terms and condition</li>
+  <li>Partnership</li>
+  <li>Career</li>
+  <li>Contact</li>
+</ul> -->
 
+</html>
